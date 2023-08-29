@@ -1,6 +1,6 @@
 # SharePay: Simplifying Expenses Together
 
-![SharePay Logo]([link-to-logo.png](https://vupcloud.com/sharepay.png)) <!-- Insert your logo or any relevant image here -->
+![SharePay Logo](https://vupcloud.com/sharepay.png)
 
 SharePay is an innovative mobile app designed to streamline the process of managing shared expenses within groups. Whether you're planning a trip with friends, sharing living costs with roommates, or collaborating on a project with colleagues, SharePay simplifies the way you collect funds, track expenses, and settle payments together.
 
