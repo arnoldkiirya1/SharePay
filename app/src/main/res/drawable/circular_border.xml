@@ -1,0 +1,8 @@
+<!-- res/drawable/circular_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#CCCCCC" /> <!-- Border color (e.g., red) -->
+    <size
+        android:width="58dp"
+        android:height="58dp" /> <!-- Adjust the size to match your image view -->
+</shape>

@@ -12,10 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Success"
+            android:name=".PayBills"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".AddMembers"
+            android:exported="false" />
+        <activity
+            android:name=".CreateGroup"
+            android:exported="false" />
+        <activity
+            android:name=".Otp"
+            android:exported="false" />
+        <activity
+            android:name=".SetupProfile"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +32,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SignIn"
+            android:exported="true"></activity>
+        <activity
+            android:name=".GroupChannel"
+            android:exported="true" />
+        <activity
+            android:name=".Deposit"
+            android:exported="true" />
+        <activity
+            android:name=".Success"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>

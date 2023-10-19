@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+    <tab
+        drawable="@drawable/history"
+        text="@string/transactions" />
+
+    <tab
+        drawable="@drawable/ic_groups"
+        text="@string/groups" />
+
+    <tab
+        drawable="@drawable/ic_profile"
+        text="@string/profile" />
+</tabs>

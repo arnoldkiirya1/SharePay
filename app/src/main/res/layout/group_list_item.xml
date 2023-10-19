@@ -1,0 +1,85 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="14dp"
+    android:layout_marginTop="12dp">
+
+    <!-- Circular Image View with Border -->
+    <RelativeLayout
+
+        android:id="@+id/chat_imgs"
+        android:layout_height="54dp"
+        android:layout_width="54dp"
+        android:background="@drawable/circular_border">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_img"
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/group_icon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/chat_imgs"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/chat_imgs"
+        android:background="#82bdbdbd"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:id="@+id/chatName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-light"
+            android:text="Umeme Hostel Share"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chatMessage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text="Kiirya, deposited Ugx 100,000"
+            android:textColor="#5E5E5E"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:text="9:11 AM"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

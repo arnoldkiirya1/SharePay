@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="482dp"
+        android:layout_height="157dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_speech_bubble_outgoing"
+        android:lineSpacingExtra="2dp"
+        android:paddingLeft="20dp"
+        android:textSize="13.5dp"
+        android:textColor="#000"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="482dp"
+        android:layout_height="157dp"
+        android:background="@drawable/bg_speech_bubble_incoming"
+        android:lineSpacingExtra="2dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:textSize="13.5dp"
+        android:textColor="#000"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="47dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

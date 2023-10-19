@@ -3,8 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_success.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/drawable/active_tab_background.xml" value="0.172" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/drawable/bg_speech_bubble_incoming.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/drawable/bg_speech_bubble_outgoing.xml" value="0.17" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/drawable/bottom_navigation_background.xml" value="0.188" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/drawable/circular_border.xml" value="0.187" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/drawable/edittext.xml" value="0.184" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/drawable/ic_back.xml" value="0.184" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/drawable/rounded_edittext_bg.xml" value="0.188" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/font/sharefonts.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_add_members.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_channel.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_create_group.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_deposit.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_group_channel.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_main.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_otp.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_pay_bills.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_setup_profile.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_sign_in.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_success.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/contact_item.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/group_list_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/incoming_chat_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/outgoing_chat_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/pay_dialog.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/xml/tabs.xml" value="0.14749893116716545" />
       </map>
     </option>
   </component>
@@ -13,5 +40,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>
