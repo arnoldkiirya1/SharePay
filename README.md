@@ -254,7 +254,7 @@ SharePay offers a range of powerful features to simplify expense sharing and gro
 - **Feature Enhancements**: Future support for international currencies, expense analytics, budget planning, and receipt scanning.
 - **Scaling Infrastructure**: Prepared to scale to accommodate increased user traffic and ensure a smooth user experience.
 
-## SharePay Demostration
+## SharePay Screenshots
 
 Here are some screenshots of SharePay in action:
 
