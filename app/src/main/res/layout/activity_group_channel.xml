@@ -10,47 +10,63 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView4"
         android:layout_width="0dp"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" >
+        app:layout_constraintStart_toStartOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:background="#00FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
-            <Button
-                android:id="@+id/getTokenBtn3"
+            <TextView
+                android:id="@+id/textView30"
                 android:layout_width="0dp"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="30dp"
+                android:text="Loading ..."
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <Button
+                android:id="@+id/paybill"
+                android:layout_width="0dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
                 android:background="#689F38"
                 android:text="PAY BILL"
+                android:visibility="gone"
                 app:backgroundTint="#689F38"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/getTokenBtn2" />
+                app:layout_constraintTop_toBottomOf="@+id/depositBtn" />
 
             <Button
-                android:id="@+id/getTokenBtn2"
+                android:id="@+id/depositBtn"
                 android:layout_width="0dp"
-                android:layout_height="60dp"
+                android:layout_height="54dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="30dp"
-                android:onClick="makePayment"
                 android:text="DEPOSIT MONEY"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.558"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+                app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
             <View
                 android:id="@+id/divider3"
@@ -63,40 +79,41 @@
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:text="You have so far deposited, Ugx 150,000 / 300,000"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="30dp"
+                android:text="Loading ..."
+                android:gravity="center"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/divider3" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/textView29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="5dp"
-                android:text="You were addded to the SharePay Group"
-                android:textColor="#5E5E5E"
-                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="12sp"
+                android:text="Only sharePay group admins can pay bills"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/getTokenBtn3" />
+                app:layout_constraintTop_toBottomOf="@+id/paybill" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView3"
         android:layout_width="0dp"
+        android:textSize="12sp"
         android:layout_height="60dp"
         android:background="#00649F"
         app:layout_constraintEnd_toEndOf="parent"
@@ -121,8 +138,8 @@
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/chat_img"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:layout_centerInParent="true"
                 android:layout_marginStart="5dp"
                 android:src="@drawable/group_icon"
@@ -132,14 +149,15 @@
 
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:text="Home Yaka"
                 android:textColor="#fff"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/textView10"
                 app:layout_constraintStart_toEndOf="@+id/chat_img"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -150,7 +168,7 @@
                 android:layout_marginStart="10dp"
                 android:text="Target Fee: Ugx 300,000"
                 android:textColor="#fff"
-                android:textSize="14sp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toStartOf="@+id/textView10"
                 app:layout_constraintStart_toEndOf="@+id/chat_img"
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -169,9 +187,9 @@
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="50%"
+                android:text="0%"
                 android:textColor="#fff"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imageView3"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -179,6 +197,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messagelist"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/cardView4"

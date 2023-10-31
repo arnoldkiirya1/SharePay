@@ -16,21 +16,29 @@
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_channel.xml" value="0.22" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_create_group.xml" value="0.22" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_deposit.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_group_channel.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_main.xml" value="0.14743589743589744" />
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_otp.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_pay_bills.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_group_channel.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_group_requests.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_otp.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_pay_bills.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_pay_yaka.xml" value="0.22" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_setup_profile.xml" value="0.22" />
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_sign_in.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_success.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_success.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/activity_view_group_details.xml" value="0.22" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/contact_item.xml" value="0.22" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/group_list_item.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/incoming_chat_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/incoming_chat_item.xml" value="0.22" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/outgoing_chat_item.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/pay_dialog.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/pay_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/request_item.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/successful_pay.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/transaction_history.xml" value="0.22" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/layout/view_profile.xml" value="0.22" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1796875" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/menu/bottom_navigation_view_menu.xml" value="0.14743589743589744" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/menu/menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/xml/network_security_config.xml" value="0.1" />
         <entry key="..\:/Users/PC/Documents/SharePay-v1/app/src/main/res/xml/tabs.xml" value="0.14749893116716545" />
       </map>
     </option>
@@ -44,7 +52,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.22" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>

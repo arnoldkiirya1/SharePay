@@ -7,8 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".SetupProfile">
 
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
     <EditText
-        android:id="@+id/edit_text6"
+        android:id="@+id/l_name"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
@@ -22,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text" />
+        app:layout_constraintTop_toBottomOf="@+id/f_name" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -39,24 +48,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
         android:fontFamily="@font/raleway_bold"
         android:text="What's your name?"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="0dp"
-        android:layout_height="65dp"
+        android:layout_height="55dp"
         android:layout_marginStart="20dp"
-        app:backgroundTint="#689F38"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="10dp"
         android:text="continue"
+        app:backgroundTint="#689F38"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -66,7 +74,7 @@
     <!--this is the actual edit text which takes the input-->
 
     <EditText
-        android:id="@+id/edit_text"
+        android:id="@+id/f_name"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"

@@ -12,16 +12,15 @@
     <RelativeLayout
 
         android:id="@+id/chat_imgs"
-        android:layout_height="54dp"
         android:layout_width="54dp"
-        android:background="@drawable/circular_border">
+        android:layout_height="54dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/chat_img"
             android:layout_width="51dp"
             android:layout_height="51dp"
             android:layout_centerInParent="true"
-            android:src="@drawable/group_icon" />
+            android:src="@drawable/group_ico" />
     </RelativeLayout>
 
     <LinearLayout
@@ -30,7 +29,7 @@
         android:layout_below="@id/chat_imgs"
         android:layout_marginTop="10dp"
         android:layout_toEndOf="@id/chat_imgs"
-        android:background="#82bdbdbd"
+        android:background="#63BDBDBD"
         android:orientation="vertical">
 
 
@@ -40,19 +39,20 @@
         android:id="@+id/textLL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="4dp">
+        android:layout_marginTop="4dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/chatName"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginTop="3dp"
             android:layout_weight="1"
             android:fontFamily="sans-serif-light"
             android:text="Umeme Hostel Share"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="13.5sp"
             android:textStyle="bold" />
 
         <TextView
@@ -62,8 +62,9 @@
             android:layout_marginTop="3dp"
             android:layout_weight="1"
             android:text="Kiirya, deposited Ugx 100,000"
+
             android:textColor="#5E5E5E"
-            android:textSize="14sp" />
+            android:textSize="12.5sp" />
 
     </LinearLayout>
 
@@ -78,7 +79,7 @@
             android:layout_height="wrap_content"
             android:paddingTop="6dp"
             android:text="9:11 AM"
-            android:textSize="13sp" />
+            android:textSize="12.5sp" />
     </LinearLayout>
 
 

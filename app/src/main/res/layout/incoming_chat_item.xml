@@ -35,7 +35,7 @@
         android:layout_marginTop="15dp"
         android:text="Kiirya Arnold"
         android:textColor="#fff"
-        android:textSize="14sp"
+        android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
