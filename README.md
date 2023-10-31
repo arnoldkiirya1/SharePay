@@ -256,8 +256,19 @@ SharePay offers a range of powerful features to simplify expense sharing and gro
 
 ## SharePay Demostration
 
-<!-- Embed YouTube Video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UO8u9WEZSx8?start=7" frameborder="0" allowfullscreen></iframe>
+Here are some screenshots of SharePay in action:
+
+| Main Screen | Profile Screen | Create New Group | Add Members to Group | Members accept/decline group requests |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Main Screen](screenshots/1.png) | ![Profile Screen](screenshots/2.png) | ![Create New Group](screenshots/3.png) | ![Add Members to Group](screenshots/4.png) | ![Members accept/decline group requests](screenshots/5.png) |
+
+| Group Wallet | Deposit funds to wallet | Deposit successful | Pay for the service (YAKA) | Receive Payment Message |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Group Wallet](screenshots/6.png) | ![Deposit funds to wallet](screenshots/7.png) | ![Deposit successful](screenshots/8.png) | ![Pay for the service (YAKA)](screenshots/9.png) | ![Receive Payment Message](screenshots/10.png) |
+
+Watch the SharePay demonstration on YouTube:
+
+<a href="https://www.youtube.com/watch?v=UO8u9WEZSx8" style="text-decoration:none;background-color:#FF0000;color:#FFFFFF;padding:10px 20px;border-radius:5px;">Watch Video</a>
 
 ## Acknowledgments
 
